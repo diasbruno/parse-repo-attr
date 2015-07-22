@@ -1,0 +1,12 @@
+{
+  "name": "parse-repo-attr",
+  "version": "0.0.1",
+  "repo": "disabruno/parse-repo-attr",
+  "description": "(used in clib-download) parse a package string, like 'github:clibs/readline@master; and return as host:user/name@version.",
+  "keywords": ["parse", "clib", "clib download", "clib-download"],
+  "license": "MIT",
+  "src": ["parse-repo-attr.c", "parse-repo-attr.h"],
+  "dependencies": {
+    "stephenmathieson/substr.c": "0.1.2"
+  }
+}
